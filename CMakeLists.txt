@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.0)
 project(mobilenetknn)
 
-SET(Caffe_DIR /home/rahul/caffe/distribute)
+SET(Caffe_DIR /home/rahul/caffe)
 
 include_directories(${Caffe_DIR}/include ${CMAKE_CURRENT_SOURCE_DIR}/include)
 
